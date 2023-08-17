@@ -53,6 +53,9 @@ app.post("/deleteorder", deleteorder, (req, res) => {
 app.get("/newUser", (req, res) => {
     res.render('pages-sign-up');
 });
+app.get("/home", (req, res) => {
+    res.render('index',{orderresult: porders});
+});
 app.post("/home", (req, res) => {
     res.render('index',{orderresult: porders});
 });
