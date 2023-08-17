@@ -58,7 +58,7 @@ app.post("/home", (req, res) => {
 });
 
 app.post("/newUser", async (req, res) => {
-    console.log(req.body.userid, req.body.password);
+    // console.log(req.body.userid, req.body.password);
     addData(req.body.userid,req.body.password);
     res.redirect('/');
 });
