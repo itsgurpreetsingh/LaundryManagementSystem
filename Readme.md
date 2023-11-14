@@ -10,7 +10,7 @@ Render Link: https://laundrymanagementsystem.onrender.com
 ## For Demo
 Username: Mangla
 
-Password: 123456
+Password: 654321
 
 
 
